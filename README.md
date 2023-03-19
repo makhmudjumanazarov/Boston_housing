@@ -23,3 +23,9 @@ pip install -r requirements.txt
 pip install ipykernel
 python -m ipykernel install --user --name=boston_housing
 </pre>
+<br/>
+<b>Step 5.</b> Model to Train and Evaluate
+<pre>
+Open a Boston Housing.ipynb file via jupyter lab or jupyter notebook commands
+</pre> 
+<br/>
