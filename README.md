@@ -15,5 +15,9 @@ Activate your virtual environment
 -source boston_housing/bin/activate # Linux
 -.\boston_housing\Scripts\activate # Windows
 
-1.Terminal, cmd yoki Powershellda ushbu komandani tering ya'ni virtual env create qilib oling:
-  python -m venv virtual
+## Steps
+<br />
+<b>Step 1.</b> Clone this repository: https://github.com/nicknochnack/TFODCourse
+<br/><br/>
+<b>Step 2.</b> Create a new virtual environment 
+<pre>
