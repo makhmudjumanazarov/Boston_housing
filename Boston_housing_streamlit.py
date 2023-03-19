@@ -31,7 +31,7 @@ st.title('The chart for per epoch')
 chart = st.line_chart(width=0, height=0, use_container_width=True)
 
 # Modelni train qilish
-for epoch in range(10):
+for epoch in range(100):
     model.fit(x=x_train,y=y_train, validation_data=(x_test,y_test),epochs=epoch, batch_size = 32, verbose=0)
     train_metrics = model.evaluate(x_train, y_train, verbose=0)
     train_loss.append(train_metrics[0])
