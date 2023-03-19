@@ -16,3 +16,9 @@ source boston_housing/bin/activate # Linux
 .\boston_housing\Scripts\activate # Windows 
 </pre>
 <br/>
+<b>Step 4.</b> Install dependencies and add virtual environment to the Python Kernel
+<pre>
+python -m pip install --upgrade pip
+pip install ipykernel
+python -m ipykernel install --user --name=boston_housing
+</pre>
