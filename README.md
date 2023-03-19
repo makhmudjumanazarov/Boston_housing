@@ -23,3 +23,9 @@ pip install -r requirements.txt
 pip install ipykernel
 python -m ipykernel install --user --name=boston_housing
 </pre>
+<br/>
+<b>Step 5.</b>  
+<pre>
+Open this file via jupyter lab or jupyter notebook commands
+</pre> 
+<br/>
