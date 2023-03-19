@@ -31,7 +31,7 @@ st.title('The chart for per epoch')
 chart = st.line_chart(width=0, height=0, use_container_width=True)
 
 # Modelni train qilish
-for epoch in range(200):
+for epoch in range(10):
     model.fit(x=x_train,y=y_train, validation_data=(x_test,y_test),epochs=epoch, batch_size = 32, verbose=0)
     train_metrics = model.evaluate(x_train, y_train, verbose=0)
     train_loss.append(train_metrics[0])
@@ -40,6 +40,6 @@ for epoch in range(200):
 
 
     # Har bitta epochda grafikni yangilash
-    chart_data = {"Training Loss": train_loss, "mae":train_mae, "rmse":train_rmse}
+    chart_data = {"Training Loss": train_loss, "MAE":train_mae, "RMSE":train_rmse}
     chart.add_rows(chart_data)
 
