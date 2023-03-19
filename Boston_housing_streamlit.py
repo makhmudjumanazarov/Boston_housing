@@ -40,6 +40,6 @@ for epoch in range(20):
 
 
     # Har bitta epochda grafikni yangilash
-    # chart_data = {"Training Loss": train_loss, "MAE":train_mae, "RMSE":train_rmse}
-    # chart.add_rows(chart_data)
+    chart_data = {"Training Loss": train_loss, "MAE":train_mae, "RMSE":train_rmse}
+    chart.add_rows(chart_data)
 
