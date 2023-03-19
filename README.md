@@ -1,4 +1,4 @@
-# Boston_housing
+# Boston Housing
 <p>Boston housing via Tensorflow.keras
   
 ## Steps
@@ -30,7 +30,7 @@ Open a Boston Housing.ipynb file via jupyter lab or jupyter notebook commands
 </pre> 
 <br/>
 
-## Deploy via The Streamlit
+## Deploy via the Streamlit
 <br />
 <b>To view</b> Link: https://makhmudjumanazarov-boston-housi-boston-housing-streamlit-lmvqvg.streamlit.app/
 <br/>
