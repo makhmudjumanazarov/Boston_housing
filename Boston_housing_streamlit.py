@@ -32,8 +32,8 @@ chart = st.line_chart(width=0, height=0, use_container_width=True)
 
 # Modelni train qilish
 for epoch in range(20):
-    model.fit(x=x_train,y=y_train, validation_data=(x_test,y_test),epochs=1, batch_size = 32, verbose=0)
-    train_metrics = model.evaluate(x_train, y_train, verbose=0)
+    model.fit(x=x_train,y=y_train, validation_data=(x_test,y_test),epochs=epoch, batch_size = 32)
+    train_metrics = model.evaluate(x_train, y_train)
     train_loss.append(train_metrics[0])
     train_mae.append(train_metrics[1])
     train_rmse.append(train_metrics[2])
