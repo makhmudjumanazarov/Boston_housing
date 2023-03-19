@@ -29,3 +29,8 @@ python -m ipykernel install --user --name=boston_housing
 Open a Boston Housing.ipynb file via jupyter lab or jupyter notebook commands
 </pre> 
 <br/>
+
+## Deploy via The Streamlit
+<br />
+<b>To view</b> Link: https://makhmudjumanazarov-boston-housi-boston-housing-streamlit-lmvqvg.streamlit.app/
+<br/>
