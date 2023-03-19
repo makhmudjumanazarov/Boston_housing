@@ -1,10 +1,7 @@
 # Boston_housing
-Boston housing via Tensorflow.keras
+<p>Boston housing via Tensorflow.keras
 
-# Steps
 
-## Step 1. 
-Clone this repository: https://github.com/makhmudjumanazarov/Boston_housing.git
 
 ## Step 2.
 Create a new virtual environment
