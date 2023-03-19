@@ -26,6 +26,6 @@ python -m ipykernel install --user --name=boston_housing
 <br/>
 <b>Step 5.</b> Model to Train and Evaluate
 <pre>
-Open a Boston Housing.ipynb via jupyter lab or jupyter notebook commands
+Open a Boston Housing.ipynb file via jupyter lab or jupyter notebook commands
 </pre> 
 <br/>
