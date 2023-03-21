@@ -45,6 +45,7 @@ print(data[0])
 # options = st.multiselect(
 #     'Which model do you want?',
 #     ['keras DL model'])
-# if st.button('Predict price'):
+if st.button('Predict price'):
 #     for i in range(len(options)):
-#         st.write(f"Your house's price with {options[i]} is ${predict_models(options[i])}")
+#     st.write(f"Your house's price with {options[i]} is ${predict_models(options[i])}")
+    st.write(f"Your house's price with is ${4}")
