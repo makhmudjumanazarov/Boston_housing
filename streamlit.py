@@ -41,7 +41,7 @@ def predict_models(name):
     if name == 'keras DL model':
         return round(model.predict([data])[0,0]*1000, 2)
     
- options = st.multiselect(
+options = st.multiselect(
     'Which model do you want?',
     ['keras DL model'])
 if st.button('Predict price'):
