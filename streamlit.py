@@ -45,9 +45,11 @@ data[12] = st.number_input('LSTAT - % lower status of the population')
 #     if name == 'keras DL model':
 #         return round(model.predict([data])[0,0]*1000, 2)
     
+data = data = np.array(data)
+data = data.reshape(1, 13)
 if st.button('Predict price'):
 #     for i in range(len(options)):
-#     st.write(f"Your house's price with is ${model_load(data[0:])}")
+    st.write(f"Your house's price with is ${model_load(data[0:])}")
     st.write(f"Your house's price with is ${data[0:]}")
-    st.write(f"Your house's price with is ${x_test[0:1]}")
+#     st.write(f"Your house's price with is ${x_test[0:1]}")
     
