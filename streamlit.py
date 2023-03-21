@@ -45,5 +45,9 @@ data[12] = st.number_input('LSTAT - % lower status of the population')
     
 data = np.array(data)
 data = data.reshape(1, 13)
+data1 = (data - mean) / std
+
 if st.button('Predict price'):
     st.write(f"Your house's price with is ${model_load(data[0:])}")
+    st.write(f"Your house's price with is ${data}")
+    st.write(f"Your house's price with is ${data1}")
