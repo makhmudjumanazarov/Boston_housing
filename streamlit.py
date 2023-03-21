@@ -15,7 +15,7 @@ model_load = tf.keras.models.load_model('model')
 
 st.write("Enter values for your house")
 data = [0 for i in range(13)]
-data[0] = st.number_input('CRIM - per capita crime rate by town', step=0.1)
+data[0] = st.number_input('CRIM - per capita crime rate by town', step=0.2)
 
 data[1] = st.number_input('ZN - proportion of residential land zoned for lots over 25,000 sq.ft.')
 
@@ -47,4 +47,4 @@ data = data.reshape(1, 13)
 data1 = (data - mean) / std
 
 if st.button('Predict price'):
-    st.write(f"Your house's price with is ${round(model_load(data1)[0][0]*1000)}")
+    st.write(f"Your house's price with is ${np.round_(model_load(data1)[0][0]*1000)}")
