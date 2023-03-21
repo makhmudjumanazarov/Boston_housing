@@ -10,7 +10,7 @@ std = x_train.std(axis=0)
 x_train = (x_train - mean) / std
 x_test = (x_test - mean) / std
 
-model_load = tf.keras.models.load_model('/model/')
+model_load = tf.keras.models.load_model('model')
 model_load.evaluate(x_test, y_test)
 
 st.write("Enter values for your house")
