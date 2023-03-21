@@ -17,3 +17,23 @@ st.write("Enter values for your house")
 data = [0 for i in range(13)]
 data[0] = st.number_input('CRIM - per capita crime rate by town', step=0.1)
 
+data[3] = st.radio("CS - Charles River dummy variable (1 if tract bounds river; 0 otherwise)", (1, 0))
+
+data[4] = st.number_input('NOX - nitric oxides concentration (parts per 10 million)')
+
+data[5] = st.number_input('RM - average number of rooms per dwelling')
+
+data[6] = st.number_input('AGE - proportion of owner-occupied units built prior to 1940')
+
+data[7] = st.number_input('DIS - weighted distances to five Boston employment centres')
+
+data[8] = st.number_input('RAD - index of accessibility to radial highways')
+
+data[9] = st.number_input('TAX - full-value property-tax rate per $10,000')
+
+data[10] = st.number_input('PTRATIO - pupil-teacher ratio by town')
+
+data[11] = st.number_input('B - 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town')
+
+data[12] = st.number_input('LSTAT - % lower status of the population')
+
