@@ -37,3 +37,13 @@ data[11] = st.number_input('B - 1000(Bk - 0.63)^2 where Bk is the proportion of 
 
 data[12] = st.number_input('LSTAT - % lower status of the population')
 
+def predict_models(name):
+    if name == 'keras DL model':
+        return round(model.predict([data])[0,0]*1000, 2)
+    
+ options = st.multiselect(
+    'Which model do you want?',
+    ['keras DL model'])
+if st.button('Predict price'):
+    for i in range(len(options)):
+        st.write(f"Your house's price with {options[i]} is ${predict_models(options[i])}")
