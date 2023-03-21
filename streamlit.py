@@ -42,10 +42,7 @@ print(data[0])
 #     if name == 'keras DL model':
 #         return round(model.predict([data])[0,0]*1000, 2)
     
-# options = st.multiselect(
-#     'Which model do you want?',
-#     ['keras DL model'])
 if st.button('Predict price'):
 #     for i in range(len(options)):
 #     st.write(f"Your house's price with {options[i]} is ${predict_models(options[i])}")
-    st.write(f"Your house's price with is ${4}")
+    st.write(f"Your house's price with is ${model_load(x_test[0:1])}")
