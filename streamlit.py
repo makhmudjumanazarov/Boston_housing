@@ -47,6 +47,6 @@ data[12] = st.number_input('LSTAT - % lower status of the population')
     
 if st.button('Predict price'):
 #     for i in range(len(options)):
-#     st.write(f"Your house's price with is ${model_load(data[0:-1])}")
+    st.write(f"Your house's price with is ${model_load(data[0:])}")
     st.write(f"Your house's price with is ${data[0:]}")
     
