@@ -37,7 +37,7 @@ data[11] = st.number_input('B - 1000(Bk - 0.63)^2 where Bk is the proportion of 
 
 data[12] = st.number_input('LSTAT - % lower status of the population')
 
-print(data)
+print(data[0])
 # def predict_models(name):
 #     if name == 'keras DL model':
 #         return round(model.predict([data])[0,0]*1000, 2)
