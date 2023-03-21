@@ -1,5 +1,6 @@
 import tensorflow as tf
 import streamlit as st
+import numpy as np
 from tensorflow.keras.models import load_model
 
 (x_train, y_train), (x_test, y_test) = tf.keras.datasets.boston_housing.load_data(
@@ -45,7 +46,7 @@ data[12] = st.number_input('LSTAT - % lower status of the population')
 #     if name == 'keras DL model':
 #         return round(model.predict([data])[0,0]*1000, 2)
     
-data = data = np.array(data)
+data = np.array(data)
 data = data.reshape(1, 13)
 if st.button('Predict price'):
 #     for i in range(len(options)):
