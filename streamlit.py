@@ -17,6 +17,10 @@ st.write("Enter values for your house")
 data = [0 for i in range(13)]
 data[0] = st.number_input('CRIM - per capita crime rate by town', step=0.1)
 
+data[1] = st.number_input('ZN - proportion of residential land zoned for lots over 25,000 sq.ft.')
+
+data[2] = st.number_input('INDUS - proportion of non-retail business acres per town.')
+
 data[3] = st.radio("CS - Charles River dummy variable (1 if tract bounds river; 0 otherwise)", (1, 0))
 
 data[4] = st.number_input('NOX - nitric oxides concentration (parts per 10 million)')
@@ -37,13 +41,12 @@ data[11] = st.number_input('B - 1000(Bk - 0.63)^2 where Bk is the proportion of 
 
 data[12] = st.number_input('LSTAT - % lower status of the population')
 
-print(data[0])
 # def predict_models(name):
 #     if name == 'keras DL model':
 #         return round(model.predict([data])[0,0]*1000, 2)
     
 if st.button('Predict price'):
 #     for i in range(len(options)):
-    st.write(f"Your house's price with is ${model_load(x_test[0:1])}")
+#     st.write(f"Your house's price with is ${model_load(x_test[0:1])}")
     st.write(f"Your house's price with is ${data[0:15]}")
     
