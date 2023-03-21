@@ -45,5 +45,5 @@ print(data[0])
 if st.button('Predict price'):
 #     for i in range(len(options)):
     st.write(f"Your house's price with is ${model_load(x_test[0:1])}")
-    st.write(f"Your house's price with is ${data[0:13]}")
+    st.write(f"Your house's price with is ${data[0:14]}")
     
