@@ -31,7 +31,7 @@ Open a Boston Housing.ipynb file via jupyter lab or jupyter notebook commands
 <br/>
 
 ## Deploy via the Streamlit
-<br /> To view 
+<br /> <b> To view </b> 
     [![Streamlit App(https://static.streamlit.io/badges/streamlit_badge_black_white.svg(https://share.streamlit.io/makhmudjumanazarov/Boston_housing/main/streamlit.py)
 <br/>
 
