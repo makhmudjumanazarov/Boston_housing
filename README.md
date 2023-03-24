@@ -31,6 +31,6 @@ Open a Boston Housing.ipynb file via jupyter lab or jupyter notebook commands
 <br/>
 
 ## Deploy via the Streamlit
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/makhmudjumanazarov/MNIST/main/app.py)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/makhmudjumanazarov/Boston_housing/main/app.py)
 
 
